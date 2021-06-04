@@ -2,15 +2,31 @@
 <html>
 	<head>
 		<title>Washington Counties</title>
+		<link rel="stylesheet" href="styles.css" type="text/css"/>
 	</head>
 	<body>
-		<embed
-   			 src="Cartogram_WA_Counties.pdf"
-    			type="application/pdf"
-  			  frameBorder="0"
-   			 scrolling="auto"
-   			 height="800px"
-   			 width="100%"
-		></embed>
+		<h1>Cartogram of Washington's Counties</h1>
+
+		<div class="img">
+			<a href="images/Cartogram_WA_Counties.pdf">
+				<img src="images/Cartogram.PNG">
+			</a>
+		</div>
+
+		<div class="flex-container">
+		  <div>
+			 	<p>This value-by-area cartogram shows the counties of Washington scaled by the count of their most popular street name. Larger counts equate to larger, darker sizes.</p>
+			</div>
+			<div>
+				<p>Garfield (lower right) has no repeated street names and is scaled 1:1. Whatcom (upper left) has 19 streets named Cedar and is scaled 10 times its normal size.</p>
+		 </div>
+		 <div>
+			 <p>The actual poster is 50 x 56 inches. It was a lot of fun to make with ArcGIS Pro and assemble using PowerPoint. <br><b>Click on the image above to download the PDF poster.</b></p>
+		 </div>
+		</div>
+
+		<div class="center">
+			<a href="https://saschu-uwt.github.io/portfolio/"><button class="button button1">Back to Portfolio</button></a>
+		</div>
 	</body>
 </html>
