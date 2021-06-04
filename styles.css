@@ -76,15 +76,6 @@ img {
   }
 }
 
-
-/* Navigation bar */
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-  margin-bottom: 3em;
-}
-
 /* Button */
 .center {
   margin-top: 5vh;
