@@ -1,5 +1,5 @@
 body {
-  background-color: #D3D3D3;
+  background-color: #f4f4f4;
   font-family: Arial, sans-serif;
   line-height: 1.65;
   margin-left: 4em;
@@ -60,7 +60,7 @@ img {
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   width: 30%;
   height: auto;
   margin: 10px;
